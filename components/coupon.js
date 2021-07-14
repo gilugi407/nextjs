@@ -8,7 +8,7 @@ var Code =[
 ];
 
 var i;
-var couponCode = "OPENSILVERBUTTON";
+var couponCode="";
 function cpSubmit(a) {
     $.ajax({
       url: "https:\/\/account.devplay.com/v2/coupon/ck",
@@ -56,12 +56,12 @@ for (i = 0; i < Code.length; i++) {
 document.write(cpSubmit(i));
 }
 return (
-<div className="flex flex-col mt-6">
+<div className="flex flex-col mt-65">
         <form className="flex justify-between p-6 mt-6 text-left border gap-x-6 w-96 rounded-xl5" id="frm">
                 <label htmlFor="couponCode">couponCode</label>
                 <input
                     className="pl-2 mx-2 text-right border w-14 rounded-m5"     
-                    type="number" 
+//                    type="number" 
                     id="couponCode" 
                     name="couponCode" 
                     min='1'
