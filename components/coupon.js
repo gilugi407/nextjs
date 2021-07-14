@@ -25,9 +25,6 @@ function cpSubmit(a) {
             break;
           case 40006:
 	console.log(Code[a] + "DevPlay 계정을 다시 한번 확인해주세요.");
-console.log(Code[a]);
-
-
             break;
           case 42501:
 	console.log(Code[a] + "사용 기간이 만료된 쿠폰입니다.");
