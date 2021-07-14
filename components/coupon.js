@@ -25,7 +25,7 @@ function cpSubmit(a) {
             break;
           case 40006:
 	console.log(Code[a] + "DevPlay 계정을 다시 한번 확인해주세요.");
-document.write(Code[a]);
+console.log(Code[a]);
 
 
             break;
