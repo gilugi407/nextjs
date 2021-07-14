@@ -1,4 +1,4 @@
-<!--
+/*
 import { useState } from 'react'
 
 export default function coupon() {
@@ -72,4 +72,4 @@ return (
 </div>
 )
 }
--->
+*/
