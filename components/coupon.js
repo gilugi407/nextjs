@@ -4,7 +4,7 @@ export default function coupon() {
 
 var Code =[
 "kkear@gmail.com", 
-“gilugi407@gmail.com”
+"gilugi407@gmail.com"
 ];
 
 var i;
