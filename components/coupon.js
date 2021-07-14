@@ -66,11 +66,11 @@ return (
                     name="couponCode" 
                     min='1'
                     max='160'
-                    value=''
+                    value='input'
                 />
                 <label htmlFor="percent">쿠폰 업데이트 : 21-07-14</label> 
 
-	   <input type="button" id="btn" onclick="cp1();" value="submit" >
+	   <input type="button" id="btn" onclick="cp1();" value='submit'/>
         </form>
 </div>
 )
