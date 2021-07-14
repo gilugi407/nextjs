@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Calculator from '../components/calculator'
-import coupon from '../components/coupon'
+import Coupon from '../components/Coupon'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="text-4xl mt-14">stella dradon calculator</h1>
         <p className="mt-3 text-xl">test ver</p>
       <Calculator />
-      <coupon />
+      <Coupon />
       </main>
     </div>
   )
