@@ -49,8 +49,7 @@ function cpSubmit(a) {
   }
 function cp1() {
 for (i = 0; i < Code.length; i++) {
-  cpSubmit(i);
-document.write(cpSubmit(i));
+  cpSubmit(i);\
 }
 return (
 <div className="flex flex-col mt-65">
@@ -58,7 +57,7 @@ return (
                 <label htmlFor="couponCode">couponCode</label>
                 <input
                     className="pl-2 mx-2 text-right border w-14 rounded-m5"     
-//                    type="number" 
+                    type="number" 
                     id="couponCode" 
                     name="couponCode" 
                     min='1'
@@ -67,7 +66,7 @@ return (
                 />
                 <label htmlFor="percent">쿠폰 업데이트 : 21-07-14</label> 
 
-	   <input type="button" id="btn" onclick="cp1();" value='submit'/>
+	   <input type="button" onclick="cp1();" value='submit'/>
         </form>
 </div>
 )
